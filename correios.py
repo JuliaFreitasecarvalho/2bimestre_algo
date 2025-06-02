@@ -13,7 +13,6 @@ print("Indices dos pacotes em transito", pacotes[2], pacotes[5])
 # Use uma função que recebe um código de rastreamento e retorne o status do pacote, ou uma mensagem informando que o pacote não está cadastrado
 
 codigo = input("Insira codigo para rastreio")
-#valor = pacotes.index(codigo)
 print("seu pacote está no indice", pacotes.index(codigo), "status:", rastreio[pacotes.index(codigo)])
 
 # Ordene os pacotes pelo código da rastreamento e exiba a tupla ordenada
